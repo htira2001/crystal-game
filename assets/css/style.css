@@ -1,0 +1,92 @@
+body {
+    background-image: url(../images/background.png)
+}
+.page-header {
+   height: 50px;
+   color: aliceblue;
+   background: orange;
+   text-align: center;
+   padding: 20px;
+   border-style: solid;
+   width: 230px;
+   font-size: 24px;
+}
+.panel-object{
+    width: 400px;
+    background: #ffcc99;
+    border-style: solid;
+    height: 300px;
+}
+.panel-object p {
+    margin-top: 20px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    font-size: 22px;
+    
+}
+
+p {
+    display: inline;
+    font-size: 18px; 
+    margin-top: 20px;
+}
+
+
+.crystals {
+    margin-left: 18px;
+    justify-content: space-around; 
+    align-items: center; 
+    background-image: white;
+}
+
+
+.crystalImage {
+    height: 50px; 
+    width: 50px; 
+    background-image: white;
+}
+
+.crystalImage:hover {
+    cursor: pointer; 
+    box-shadow: 10px 10px 8px lightgray;
+}
+
+#targetNumber {
+    font-family: 'Oswald', sans-serif;  
+    font-size: 22px;
+    height: 250px;
+    width: 40px;
+}
+
+.panel-footer {
+    font-size: 12px; 
+    font-family: 'Oswald', sans-serif;  
+    text-align:center; 
+}
+
+#previousNumber {
+    font-family: 'Oswald', sans-serif;  
+    font-size: 22px;
+}
+
+#wins {
+    font-family: 'Oswald', sans-serif;  
+    font-size: 22px;
+    background: #66ffff;
+}
+
+#losses {
+    font-family: 'Oswald', sans-serif;  
+    font-size: 22px;
+    background: #66ffff;
+}
+.panel-panel-default {
+    width: 600px;
+}
